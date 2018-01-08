@@ -1,0 +1,160 @@
+> mongo
+> use ninjago
+> db.ninjas.insert(
+[
+	{
+		"_id" : ObjectId("5a43dcf52f5fb22358b60fdc"),
+		"name" : "yoshi",
+		"rank" : "brown belt",
+		"available" : false,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a44efa5c4eedf264020a28b"),
+		"name" : "omar",
+		"rank" : "brown belt",
+		"available" : false,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a44efabc4eedf264020a28c"),
+		"name" : "olfa",
+		"rank" : "brown belt",
+		"available" : false,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a44efafc4eedf264020a28d"),
+		"name" : "farah",
+		"rank" : "brown belt",
+		"available" : false,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a44efbcc4eedf264020a28e"),
+		"name" : "testing44",
+		"rank" : "amazing belt44",
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a450fdcadf8c326a4ed5a23"),
+		"name" : "Ryu",
+		"rank" : "red belt",
+		"geometry" : {
+			"coordinates" : [
+				-80,
+				25.791
+			],
+			"_id" : ObjectId("5a450fdcadf8c326a4ed5a24"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a4517efd34dc81d4039f0d3"),
+		"name" : "Ryu",
+		"rank" : "red belt",
+		"geometry" : {
+			"coordinates" : [
+				-80,
+				25.791
+			],
+			"_id" : ObjectId("5a4517efd34dc81d4039f0d4"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a4608a8b2ae262ecc0f7361"),
+		"name" : "Ryu",
+		"rank" : "red belt",
+		"geometry" : {
+			"coordinates" : [
+				-89,
+				25.791
+			],
+			"_id" : ObjectId("5a4608a8b2ae262ecc0f7362"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a4608f4b2ae262ecc0f7363"),
+		"name" : "ken",
+		"rank" : "red belt",
+		"geometry" : {
+			"coordinates" : [
+				-80.245,
+				25.391
+			],
+			"_id" : ObjectId("5a4608f4b2ae262ecc0f7364"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a460909b2ae262ecc0f7365"),
+		"name" : "chun li",
+		"rank" : "purple belt",
+		"geometry" : {
+			"coordinates" : [
+				-80.789,
+				25.701
+			],
+			"_id" : ObjectId("5a460909b2ae262ecc0f7366"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a460920b2ae262ecc0f7367"),
+		"name" : "Guile",
+		"rank" : "brown belt",
+		"geometry" : {
+			"coordinates" : [
+				-81.1,
+				24.95
+			],
+			"_id" : ObjectId("5a460920b2ae262ecc0f7368"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a46093db2ae262ecc0f7369"),
+		"name" : "Dhalsim",
+		"rank" : "yellow belt",
+		"geometry" : {
+			"coordinates" : [
+				-80.75,
+				24.6
+			],
+			"_id" : ObjectId("5a46093db2ae262ecc0f736a"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	},
+	{
+		"_id" : ObjectId("5a460ab6b2ae262ecc0f736b"),
+		"name" : "E Honda",
+		"rank" : "no belt",
+		"geometry" : {
+			"coordinates" : [
+				-81.5,
+				24.1
+			],
+			"_id" : ObjectId("5a460ab6b2ae262ecc0f736c"),
+			"type" : "point"
+		},
+		"available" : true,
+		"__v" : 0
+	}
+])
